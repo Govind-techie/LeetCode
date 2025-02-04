@@ -22,3 +22,6 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 121: Best Time to Buy and Sell Stock** (Difficulty: Easy)  
    Solution for finding the maximum profit you can make from buying and selling a stock once, given an array of prices where each element represents the price of the stock on a given day.
 
+- **Problem 11: Container With Most Water** (Difficulty: Medium)  
+   Solution for finding the maximum area of water that can be contained by two vertical lines, given their positions and heights. The problem is solved using the two-pointer approach to optimize the solution and reduce time complexity to O(n).
+
