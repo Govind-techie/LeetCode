@@ -3,6 +3,9 @@
 
 // Time Complexity : O(logn)
 
+
+// DESCRIPTION : 
+
 // Implement pow(x, n), which calculates x raised to the power n (i.e. , x^n).
 
 
@@ -28,6 +31,8 @@
 // n is an integer.
 // Either x is not zero or n > 0.
 // -104 <= xn <= 104
+
+
 
 #include<iostream>
 using namespace std;

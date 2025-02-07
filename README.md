@@ -28,3 +28,5 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 238: Product of Array Except Self** (Difficulty: Medium)  
    Solution for computing an array where each element is the product of all other elements except itself, without using division. The problem is solved using a prefix and suffix multiplication approach, achieving an optimal **O(n) time complexity** with **O(1) extra space** (excluding the output array).
 
+- **Problem 26: Remove Duplicates from Sorted Array** (Difficulty: Easy)  
+   Solution for removing duplicates from a sorted array in-place such that each unique element appears only once, achieving an **O(n) time complexity** with **O(1) extra space**.

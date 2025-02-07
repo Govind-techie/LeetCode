@@ -1,6 +1,6 @@
 // Problem: 169. Majority Element (Easy)
 
-// Description:
+// // DESCRIPTION : 
 
 // Given an array of integers nums, find the majority element. The majority element is the element that appears more than n / 2 times, where n is the size of the array.
 
