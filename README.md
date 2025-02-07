@@ -25,3 +25,6 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 11: Container With Most Water** (Difficulty: Medium)  
    Solution for finding the maximum area of water that can be contained by two vertical lines, given their positions and heights. The problem is solved using the two-pointer approach to optimize the solution and reduce time complexity to O(n).
 
+- **Problem 238: Product of Array Except Self** (Difficulty: Medium)  
+   Solution for computing an array where each element is the product of all other elements except itself, without using division. The problem is solved using a prefix and suffix multiplication approach, achieving an optimal **O(n) time complexity** with **O(1) extra space** (excluding the output array).
+
