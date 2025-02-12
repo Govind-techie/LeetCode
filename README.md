@@ -46,3 +46,6 @@
 
   - **Problem 852: Peak Index in a Mountain Array**  
     Solution for finding the peak index in a **mountain array** using **binary search**, optimizing the search process to **O(log n) time complexity**.
+
+  - **Problem 153: Find Minimum in Rotated Sorted Array**  
+    Solution for finding the minimum element in a **rotated sorted array** using **binary search**, achieving an efficient **O(log n) time complexity**.
