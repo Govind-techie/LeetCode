@@ -34,7 +34,7 @@
 
   ---
 
-  ### 🔥 Medium Problems
+    ### 🔥 Medium Problems
   - **Problem 53: Maximum Subarray Sum**  
     Find the maximum sum of a contiguous subarray using the brute-force approach.
 
@@ -55,3 +55,6 @@
 
   - **Problem 153: Find Minimum in Rotated Sorted Array**  
     Find the minimum element in a **rotated sorted array** using **binary search**, achieving an efficient **O(log n) time complexity**.
+
+  - **Problem 540: Single Element in a Sorted Array**  
+    Find the single non-duplicate element in a sorted array where every other element appears twice. The problem is solved efficiently using **binary search**, achieving an **O(log n) time complexity**.
