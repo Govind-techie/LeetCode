@@ -72,8 +72,7 @@ int singleNonDuplicate(vector<int>& nums) {
             }
         }
     }
-
-    return nums[start];  // Return the single non-duplicate element
+    return -1; // If Single element is not present
 }
 
 int main() {
