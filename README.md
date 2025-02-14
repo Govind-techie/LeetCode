@@ -34,7 +34,7 @@
 
   ---
 
-    ### 🔥 Medium Problems
+  ### 🔥 Medium Problems
   - **Problem 53: Maximum Subarray Sum**  
     Find the maximum sum of a contiguous subarray using the brute-force approach.
 
