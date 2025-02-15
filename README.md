@@ -68,5 +68,13 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   - Each book must be assigned to exactly one student.
   - Each student must get at least one book.
   - The books must be allocated in **contiguous order**.
-
+  
   This problem is not on LeetCode but is an important **hard-level** problem often asked in interviews.
+
+- **Painter’s Partition Problem**  
+  This problem involves partitioning a set of boards among painters such that the maximum time taken by any painter is minimized. It is solved using **binary search on answer** along with **greedy allocation** to ensure an efficient partitioning strategy. The key constraints are:
+  - Each painter must paint at least one board.
+  - A painter can only paint **contiguous** boards.
+  - The goal is to minimize the **maximum time** taken by any painter.
+  
+  This problem is another **hard-level** problem, commonly asked in coding interviews.
