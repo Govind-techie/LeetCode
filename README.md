@@ -78,3 +78,10 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   - The goal is to minimize the **maximum time** taken by any painter.
   
   This problem is another **hard-level** problem, commonly asked in coding interviews.
+
+- **Aggressive Cows Problem**  
+  This problem involves placing cows in stalls such that the minimum distance between any two cows is maximized. It is solved using **binary search on answer** and **greedy placement** to efficiently determine the optimal placement strategy. The key constraints are:
+  - The stalls are given in an unordered list and must be sorted before applying the approach.
+  - The goal is to find the largest minimum distance possible between cows.
+  
+  This problem is a popular **hard-level** problem often asked in competitive programming contests and technical interviews.
