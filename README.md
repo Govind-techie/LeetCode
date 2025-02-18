@@ -32,6 +32,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 278: First Bad Version**  
   Find the first bad version in a sequence using **binary search**, optimizing the search process to **O(log n) time complexity**.
 
+- **Problem 31: Merge Two Sorted Arrays**  
+  Merge two sorted arrays into one sorted array in place. The problem is solved efficiently by starting from the end of the arrays and filling the result in a backward direction. The time complexity is **O(m + n)**.
+
 ---
 
 ### 🔥 Medium Problems
@@ -58,6 +61,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 540: Single Element in a Sorted Array**  
   Find the single non-duplicate element in a sorted array where every other element appears twice. The problem is solved efficiently using **binary search**, achieving an **O(log n) time complexity**.
+
+- **Problem 75: Sort Colors**  
+  Sort an array of colors (represented by 0, 1, and 2) in place using the **Dutch National Flag Algorithm**. This problem is solved with a **one-pass** solution to achieve **O(n) time complexity** and **O(1) space complexity**.
+
+- **Problem 88: Next Permutations**  
+  Find the next lexicographically greater permutation of numbers in an array. The problem is solved using **three steps**: finding the pivot, swapping elements, and reversing the right part of the array, all in **O(n)** time complexity.
 
 ---
 
