@@ -1,40 +1,42 @@
-# LeetCode Solutions
+# LeetCode Solutions  
 
-This repository includes all the LeetCode problems I solved throughout my DSA journey.
+This repository includes all the LeetCode problems I solved throughout my DSA journey.  
 
-## 🎯 LeetCode Problems
+## 🎯 LeetCode Problems  
 
-### ✅ Easy Problems
+### ✅ Easy Problems  
 - **Problem 136: Single Number**  
-  Find the single number in an array where every element appears twice except for one.
+  *Find the single number in an array where every element appears twice except for one.*  
 
 - **Problem 1: Two Sum**  
-  Find two numbers in an array that add up to a specific target value.
+  *Find two numbers in an array that add up to a specific target value.*  
 
 - **Problem 169: Majority Element**  
-  Find the majority element in an array that appears more than **n / 2** times.
+  *Find the majority element in an array that appears more than **n / 2** times.*  
 
 - **Problem 121: Best Time to Buy and Sell Stock**  
-  Find the maximum profit you can make from buying and selling a stock once, given an array of prices where each element represents the price of the stock on a given day.
+  *Find the maximum profit you can make from buying and selling a stock once, given an array of prices where each element represents the price of the stock on a given day.*  
 
 - **Problem 26: Remove Duplicates from Sorted Array**  
-  Remove duplicates from a sorted array in-place such that each unique element appears only once, achieving an **O(n) time complexity** with **O(1) extra space**.
+  *Remove duplicates from a sorted array in-place such that each unique element appears only once, achieving an **O(n) time complexity** with **O(1) extra space**.*  
 
 - **Problem 374: Guess Number Higher or Lower**  
-  Guess the picked number using **binary search**, reducing the search space efficiently to achieve an **O(log n) time complexity**.
+  *Guess the picked number using **binary search**, reducing the search space efficiently to achieve an **O(log n) time complexity**.*  
 
 - **Problem 704: Binary Search**  
-  Implement **binary search** on a sorted array to find a target element, achieving an **O(log n) time complexity**.
+  *Implement **binary search** on a sorted array to find a target element, achieving an **O(log n) time complexity**.*  
 
 - **Problem 35: Search Insert Position**  
-  Find the index where a target value should be inserted in a sorted array using **binary search**, achieving an **O(log n) time complexity**.
+  *Find the index where a target value should be inserted in a sorted array using **binary search**, achieving an **O(log n) time complexity**.*  
 
 - **Problem 278: First Bad Version**  
-  Find the first bad version in a sequence using **binary search**, optimizing the search process to **O(log n) time complexity**.
+  *Find the first bad version in a sequence using **binary search**, optimizing the search process to **O(log n) time complexity**.*  
 
 - **Problem 88: Merge Two Sorted Arrays**  
-  Merge two sorted arrays into one sorted array in place. The problem is solved efficiently by starting from the end of the arrays and filling the result in a backward direction. The time complexity is **O(m + n)**.
+  *Merge two sorted arrays into one sorted array in place. The problem is solved efficiently by starting from the end of the arrays and filling the result in a backward direction. The time complexity is **O(m + n)**.*  
 
+- **Problem 905: Sort Array By Parity**  
+  *Sort an array such that all even numbers appear before all odd numbers while maintaining relative order. This problem is efficiently solved using a **two-pointer approach**, achieving **O(n) time complexity** with **O(1) space complexity**.*  
 ---
 
 ### 🔥 Medium Problems
