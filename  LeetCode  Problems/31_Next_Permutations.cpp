@@ -84,9 +84,11 @@ int main() {
 
     // Print the next permutation
     cout << "Next permutation: ";
+    
     for (int num : nums) {
         cout << num << " ";
     }
+
     cout << endl;
 
     return 0;
