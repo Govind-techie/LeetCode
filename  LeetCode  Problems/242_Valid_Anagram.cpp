@@ -1,4 +1,13 @@
 /*
+
+// LeetCode Problem (242) : Valid Anagram
+
+// Difficulty : Easy
+
+// Time Complexity : O(n)
+
+//DESCRIPTION:
+
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
  
