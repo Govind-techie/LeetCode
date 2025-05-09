@@ -37,9 +37,22 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 905: Sort Array By Parity**  
   *Sort an array such that all even numbers appear before all odd numbers while maintaining relative order. This problem is efficiently solved using a **two-pointer approach**, achieving **O(n) time complexity** with **O(1) space complexity**.*  
+
+- **Problem 167: Two Sum II - Input Array Is Sorted**  
+  *Given a sorted array, find two numbers such that they add up to a specific target. Solved using the two-pointer approach in O(n) time.*  
+
+- **Problem 242: Valid Anagram**  
+  *Check if two strings are anagrams of each other. Solved using character frequency counting with O(n) time complexity.*  
+
+- **Problem 2022: Convert 1D Array Into 2D Array**  
+  *Convert a 1D array into a 2D array with specified dimensions. Solved using simple slicing and traversal, with O(n) time complexity.*  
+
+- **Problem 217: Contains Duplicate**  
+  *Check if any value appears at least twice in an array. Solved using hashing (unordered_set) in O(n) time and space.*  
+
 ---
 
-### 🔥 Medium Problems
+### 🔥 Medium Problems  
 - **Problem 53: Maximum Subarray Sum**  
   Find the maximum sum of a contiguous subarray using the brute-force approach.
 
@@ -70,10 +83,18 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 31: Next Permutations**  
   Find the next lexicographically greater permutation of numbers in an array. The problem is solved using **three steps**: finding the pivot, swapping elements, and reversing the right part of the array, all in **O(n)** time complexity.
 
+- **Problem 152: Maximum Product Subarray**  
+  *Find the contiguous subarray that has the largest product. Solved using a variation of Kadane’s Algorithm keeping track of max and min products, with O(n) time complexity.*
+
 ---
 
-### 🚀 Special Problems (Hard)
+### 🚀 Hard Problems  
+- **Problem 42: Trapping Rain Water**  
+  *Calculate how much water can be trapped after raining, given the elevation map. Solved using the two-pointer approach to reduce space and achieve O(n) time complexity.*
 
+---
+
+### 🚀 Special Problems (Hard)  
 - **Book Allocation Problem**  
   This problem involves allocating books to students in a way that minimizes the maximum number of pages assigned to any student. It requires **binary search on answer** and **greedy allocation** to efficiently distribute the books. The key constraints are:
   - Each book must be assigned to exactly one student.
