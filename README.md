@@ -50,6 +50,15 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 217: Contains Duplicate**  
   *Check if any value appears at least twice in an array. Solved using hashing (unordered_set) in O(n) time and space.*  
 
+- **Problem 231: Power of Two**  
+  *Check whether a number is a power of 2 using recursion. Solved by dividing the number by 2 repeatedly and checking if it reduces to 1.*  
+
+- **Problem 326: Power of Three**  
+  *Check whether a number is a power of 3 using recursion. Divide the number by 3 repeatedly and return true if it becomes 1.*  
+
+- **Problem 342: Power of Four**  
+  *Check whether a number is a power of 4 using recursion. Divide by 4 until the number becomes 1, returning true if successful.*  
+
 ---
 
 ### 🔥 Medium Problems  
