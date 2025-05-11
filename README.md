@@ -100,6 +100,10 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 152: Maximum Product Subarray**  
   *Find the contiguous subarray that has the largest product. Solved using a variation of Kadane’s Algorithm keeping track of max and min products, with O(n) time complexity.*
 
+- **Problem 46: Permutations**  
+  *Given a collection of distinct integers, return all possible permutations.*  
+  This problem is solved using **backtracking**, where we build the permutations one element at a time by swapping elements and recursively generating the next permutation. The algorithm achieves an **O(n!) time complexity** and **O(n)** space complexity, where n is the number of elements in the input array.
+
 ---
 
 ### 🚀 Hard Problems
