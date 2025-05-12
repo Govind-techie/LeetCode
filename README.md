@@ -114,6 +114,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 51: N-Queens**  
   *Solve the N-Queens problem where the task is to place N queens on an N×N chessboard such that no two queens threaten each other. The problem is solved using **backtracking** and checking for safety at each position on the board.*
 
+- **Problem 37: Sudoku Solver**  
+  *Solve a 9x9 Sudoku puzzle by filling empty cells so that each row, column, and 3×3 subgrid contains all digits from 1 to 9 exactly once. Solved using **backtracking**, where we try placing each digit in empty cells, validate the placement with safety checks, and backtrack when necessary. The time complexity is exponential in the worst case, but optimized with early pruning.*
+
 ---
 
 ### 🚀 Special Problems (Hard)
@@ -134,5 +137,3 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   This problem involves placing cows in stalls such that the minimum distance between any two cows is maximized. It is solved using **binary search on answer** and **greedy placement** to efficiently determine the optimal placement strategy. The key constraints are:
   - The stalls are given in an unordered list and must be sorted before applying the approach.
   - The goal is to find the largest minimum distance possible between cows.
-
----
