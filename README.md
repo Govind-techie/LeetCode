@@ -63,6 +63,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 344: Reverse String**  
   *Reverse a given character array in-place using the two-pointer approach. This solution is implemented using recursion where the first and last characters are swapped and the function is called recursively on the remaining substring. The algorithm efficiently reverses the string with **O(n) time complexity** and **O(n) space complexity** (due to recursion stack).*
 
+- **Problem 20: Valid Parentheses**  
+  *Check if a string containing just the characters '(', ')', '{', '}', '[' and ']' is valid. A valid string requires every opening bracket to be closed by the same type of bracket in the correct order. Solved using a stack to track opening brackets and matching with closing brackets efficiently.*
+
 ---
 
 ### 🔥 Medium Problems
@@ -106,6 +109,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Online Stock Span Problem**  
   *Calculate the stock span for each day given daily stock prices. The problem is solved using a stack to maintain indices of days with greater stock prices, achieving an efficient **O(n)** time complexity.*
+
+- **Problem 496: Next Greater Element I**  
+  *Given two arrays, find the next greater element for each element in the first array relative to the second array. Solved using a stack to efficiently find the next greater elements and hash mapping to answer queries in O(n) time.*
 
 ---
 
