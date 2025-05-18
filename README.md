@@ -104,6 +104,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given a collection of distinct integers, return all possible permutations.*  
   This problem is solved using **backtracking**, where we build the permutations one element at a time by swapping elements and recursively generating the next permutation. The algorithm achieves an **O(n!) time complexity** and **O(n)** space complexity, where n is the number of elements in the input array.
 
+- **Online Stock Span Problem**  
+  *Calculate the stock span for each day given daily stock prices. The problem is solved using a stack to maintain indices of days with greater stock prices, achieving an efficient **O(n)** time complexity.*
+
 ---
 
 ### 🚀 Hard Problems
