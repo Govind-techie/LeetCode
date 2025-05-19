@@ -126,6 +126,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 37: Sudoku Solver**  
   *Solve a 9x9 Sudoku puzzle by filling empty cells so that each row, column, and 3×3 subgrid contains all digits from 1 to 9 exactly once. Solved using **backtracking**, where we try placing each digit in empty cells, validate the placement with safety checks, and backtrack when necessary. The time complexity is exponential in the worst case, but optimized with early pruning.*
 
+- **Problem 84: Largest Rectangle in Histogram**  
+  *Given a histogram (an array of heights), find the area of the largest rectangle that can be formed. Solved using a stack-based approach to track indices and compute the maximum area efficiently in **O(n)** time.*
+
 ---
 
 ### 🚀 Special Problems (Hard)
