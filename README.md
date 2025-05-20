@@ -66,6 +66,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 20: Valid Parentheses**  
   *Check if a string containing just the characters '(', ')', '{', '}', '[' and ']' is valid. A valid string requires every opening bracket to be closed by the same type of bracket in the correct order. Solved using a stack to track opening brackets and matching with closing brackets efficiently.*
 
+- **Problem 234: Palindrome Linked List**  
+  *Check whether a singly linked list is a palindrome. Solved by finding the middle of the linked list, reversing the second half, and then comparing both halves. The solution achieves **O(n) time complexity** and **O(1) space complexity**.*
+
 ---
 
 ### 🔥 Medium Problems
@@ -134,18 +137,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ### 🚀 Special Problems (Hard)
 
 - **Book Allocation Problem**  
-  This problem involves allocating books to students in a way that minimizes the maximum number of pages assigned to any student. It requires **binary search on answer** and **greedy allocation** to efficiently distribute the books. The key constraints are:
-  - Each book must be assigned to exactly one student.
-  - Each student must get at least one book.
-  - The books must be allocated in **contiguous order**.
+  This problem involves allocating books to students in a way that minimizes the maximum number of pages assigned to any student. Solved using **binary search** on the answer range and a greedy feasibility check. Time complexity is **O(n log m)** where n is the number of books and m is the max page number.
 
-- **Painter’s Partition Problem**  
-  This problem involves partitioning a set of boards among painters such that the maximum time taken by any painter is minimized. It is solved using **binary search on answer** along with **greedy allocation** to ensure an efficient partitioning strategy. The key constraints are:
-  - Each painter must paint at least one board.
-  - A painter can only paint **contiguous** boards.
-  - The goal is to minimize the **maximum time** taken by any painter.
+- **Split Array Largest Sum**  
+  Given an array, split it into m subarrays such that the largest sum among these subarrays is minimized. Solved with **binary search** over the answer space combined with a greedy check.
 
-- **Aggressive Cows Problem**  
-  This problem involves placing cows in stalls such that the minimum distance between any two cows is maximized. It is solved using **binary search on answer** and **greedy placement** to efficiently determine the optimal placement strategy. The key constraints are:
-  - The stalls are given in an unordered list and must be sorted before applying the approach.
-  - The goal is to find the largest minimum distance possible between cows.
+- **Aggressive Cows**  
+  Given positions of stalls and number of cows, find the largest minimum distance between cows placed in stalls. Solved using **binary search** over distance and a greedy check for feasibility.
+
+---
