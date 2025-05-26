@@ -2,6 +2,16 @@
 
 This repository includes all the LeetCode problems I solved throughout my DSA journey.
 
+## 📈 Progress
+
+![Progress](https://progress-bar.dev/47/?title=solved&width=300&suffix=%20problems)
+
+- ✅ Easy: 29 problems  
+- 🔥 Medium: 14 problems  
+- 🚀 Hard: 4 problems  
+
+---
+
 ## 🎯 LeetCode Problems
 
 ### ✅ Easy Problems
@@ -88,10 +98,10 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Compute the diameter (longest path between any two nodes) of a binary tree. Solved using postorder DFS traversal in **O(n)** time.*
 
 - **Problem 100: Same Tree**  
-  *Determine whether two binary trees are the same. Solved using a recursive approach by comparing nodes one by one. Time complexity is **O(n)**.*
+  *Given two binary trees, check whether they are the same tree. Two trees are the same if they are structurally identical and the nodes have the same value. Solved using recursion in **O(n)** time.*
 
 - **Problem 572: Subtree of Another Tree**  
-  *Check whether one binary tree is a subtree of another. Solved using recursion by checking each node in the larger tree as a potential root of the subtree. Time complexity is **O(m * n)** in the worst case.*
+  *Check whether one binary tree is a subtree of another. Solved using recursion and the helper function to check tree equality. Time complexity is **O(m * n)** in the worst case.*
 
 ---
 
@@ -170,16 +180,4 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   Given an array, split it into m subarrays such that the largest sum among these subarrays is minimized. Solved with **binary search** over the answer space combined with a greedy check.
 
 - **Aggressive Cows**  
-  Given positions of stalls and number of cows, find the largest minimum distance between cows placed in stalls. Solved using **binary search** over distance and a greedy check for feasibility.
-
----
-
-## 📈 Progress
-
-![Progress](https://progress-bar.dev/47/?title=solved&width=300&suffix=%20problems)
-
-- ✅ Easy: 29 problems  
-- 🔥 Medium: 14 problems  
-- 🚀 Hard: 4 problems  
-
----
+  Given positions of stalls and number of cows, find the largest minimum distance between cows placed in stalls. Solved using **binary search** over distance and a greedy check for feasibility. 
