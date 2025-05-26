@@ -87,6 +87,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 543: Diameter of Binary Tree**  
   *Compute the diameter (longest path between any two nodes) of a binary tree. Solved using postorder DFS traversal in **O(n)** time.*
 
+- **Problem 100: Same Tree**  
+  *Determine whether two binary trees are the same. Solved using a recursive approach by comparing nodes one by one. Time complexity is **O(n)**.*
+
+- **Problem 572: Subtree of Another Tree**  
+  *Check whether one binary tree is a subtree of another. Solved using recursion by checking each node in the larger tree as a potential root of the subtree. Time complexity is **O(m * n)** in the worst case.*
+
 ---
 
 ### 🔥 Medium Problems
@@ -165,3 +171,15 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Aggressive Cows**  
   Given positions of stalls and number of cows, find the largest minimum distance between cows placed in stalls. Solved using **binary search** over distance and a greedy check for feasibility.
+
+---
+
+## 📈 Progress
+
+![Progress](https://progress-bar.dev/47/?title=solved&width=300&suffix=%20problems)
+
+- ✅ Easy: 29 problems  
+- 🔥 Medium: 14 problems  
+- 🚀 Hard: 4 problems  
+
+---
