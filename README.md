@@ -69,6 +69,24 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 234: Palindrome Linked List**  
   *Check whether a singly linked list is a palindrome. Solved by finding the middle of the linked list, reversing the second half, and then comparing both halves. The solution achieves **O(n) time complexity** and **O(1) space complexity**.*
 
+- **Problem 222: Count Complete Tree Nodes**  
+  *Count the number of nodes in a complete binary tree efficiently using depth comparison. The solution uses a recursive approach achieving **O(log² n) time complexity**.*
+
+- **Problem 104: Maximum Depth of Binary Tree**  
+  *Calculate the maximum depth (or height) of a binary tree using DFS traversal. Solved recursively with **O(n) time complexity**.*
+
+- **Problem 145: Binary Tree Postorder Traversal**  
+  *Traverse a binary tree in postorder (left-right-root) using recursion or stack. The solution achieves **O(n) time complexity**.*
+
+- **Problem 94: Binary Tree Inorder Traversal**  
+  *Traverse a binary tree in inorder (left-root-right) using recursion or a stack. Time complexity is **O(n)**.*
+
+- **Problem 144: Binary Tree Preorder Traversal**  
+  *Traverse a binary tree in preorder (root-left-right) using recursion or a stack. Time complexity is **O(n)**.*
+
+- **Problem 543: Diameter of Binary Tree**  
+  *Compute the diameter (longest path between any two nodes) of a binary tree. Solved using postorder DFS traversal in **O(n)** time.*
+
 ---
 
 ### 🔥 Medium Problems
@@ -116,6 +134,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 496: Next Greater Element I**  
   *Given two arrays, find the next greater element for each element in the first array relative to the second array. Solved using a stack to efficiently find the next greater elements and hash mapping to answer queries in O(n) time.*
 
+- **Problem 102: Binary Tree Level Order Traversal**  
+  *Traverse a binary tree level by level using BFS. Solved using a queue and visited each node once for a **O(n)** time complexity solution.*
+
 ---
 
 ### 🚀 Hard Problems
@@ -144,5 +165,3 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Aggressive Cows**  
   Given positions of stalls and number of cows, find the largest minimum distance between cows placed in stalls. Solved using **binary search** over distance and a greedy check for feasibility.
-
----
