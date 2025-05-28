@@ -4,11 +4,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-![Progress](https://progress-bar.dev/47/?title=solved&width=300&suffix=%20problems)
+![Progress](https://progress-bar.dev/48/?title=solved&width=300&suffix=%20problems)
 
 - ✅ Easy: 29 problems  
 - 🔥 Medium: 14 problems  
-- 🚀 Hard: 4 problems  
+- 🚀 Hard: 5 problems  
 
 ---
 
@@ -168,6 +168,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 84: Largest Rectangle in Histogram**  
   *Given a histogram (an array of heights), find the area of the largest rectangle that can be formed. Solved using a stack-based approach to track indices and compute the maximum area efficiently in **O(n)** time.*
+
+- **Problem 987: Vertical Order Traversal of a Binary Tree**  
+  *Given a binary tree, return the vertical order traversal of its nodes' values. Nodes with the same position should be reported in order from top to bottom, and from left to right when positions are the same. This is solved using BFS with a map to store nodes by their vertical and level indices, achieving **O(n log n)** time complexity.*
 
 ---
 
