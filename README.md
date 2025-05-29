@@ -4,9 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-![Progress](https://progress-bar.dev/48/?title=solved&width=300&suffix=%20problems)
-
-- ✅ Easy: 29 problems  
+- ✅ Easy: 30 problems  
 - 🔥 Medium: 14 problems  
 - 🚀 Hard: 5 problems  
 
@@ -103,6 +101,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 572: Subtree of Another Tree**  
   *Check whether one binary tree is a subtree of another. Solved using recursion and the helper function to check tree equality. Time complexity is **O(m * n)** in the worst case.*
 
+- **Problem 112: Path Sum**  
+  *Given a binary tree and a target sum, determine if the tree has a root-to-leaf path such that the sum of the node values equals the target. Solved using DFS with recursive subtraction of node values from the target sum.*
+  
 ---
 
 ### 🔥 Medium Problems
