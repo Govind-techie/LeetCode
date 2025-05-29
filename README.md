@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 30 problems  
-- 🔥 Medium: 14 problems  
+- 🔥 Medium: 15 problems  
 - 🚀 Hard: 5 problems  
 
 ---
@@ -153,6 +153,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 102: Binary Tree Level Order Traversal**  
   *Traverse a binary tree level by level using BFS. Solved using a queue and visited each node once for a **O(n)** time complexity solution.*
+
+- **Problem 236: Lowest Common Ancestor of a Binary Tree**  
+  *Given a binary tree, find the lowest common ancestor (LCA) of two given nodes. The LCA of two nodes is the deepest node that has both nodes as descendants (a node can be a descendant of itself). Solved using a recursive post-order traversal. If both left and right recursive calls return non-null, the current node is the LCA. Otherwise, we return whichever side is non-null. Time complexity is **O(n)** where n is the number of nodes in the tree.*
 
 ---
 
