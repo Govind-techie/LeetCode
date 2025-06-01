@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 30 problems  
+- ✅ Easy: 31 problems  
 - 🔥 Medium: 15 problems  
 - 🚀 Hard: 5 problems  
 
@@ -103,6 +103,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 112: Path Sum**  
   *Given a binary tree and a target sum, determine if the tree has a root-to-leaf path such that the sum of the node values equals the target. Solved using DFS with recursive subtraction of node values from the target sum.*
+
+- **Problem 938: Range Sum of BST**  
+  *Given a Binary Search Tree and a range \[low, high\], return the sum of all node values within that range. The problem is solved using **DFS traversal**, where we leverage the **BST property** to skip unnecessary branches. If the current node value is less than `low`, we only explore the right subtree; if it's greater than `high`, we explore only the left subtree. This approach improves efficiency over a brute-force traversal. The time complexity is **O(n)** in the worst case (unbalanced tree) and **O(log n)** on average for a balanced BST.*
   
 ---
 
