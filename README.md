@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 31 problems  
-- 🔥 Medium: 15 problems  
+- 🔥 Medium: 16 problems  
 - 🚀 Hard: 5 problems  
 
 ---
@@ -106,6 +106,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 938: Range Sum of BST**  
   *Given a Binary Search Tree and a range \[low, high\], return the sum of all node values within that range. The problem is solved using **DFS traversal**, where we leverage the **BST property** to skip unnecessary branches. If the current node value is less than `low`, we only explore the right subtree; if it's greater than `high`, we explore only the left subtree. This approach improves efficiency over a brute-force traversal. The time complexity is **O(n)** in the worst case (unbalanced tree) and **O(log n)** on average for a balanced BST.*
+
+- **Problem 98: Validate Binary Search Tree**  
+  *Determine if a binary tree is a valid binary search tree (BST).  
+  A valid BST requires that for every node, all nodes in the left subtree are strictly less than the node’s value, and all nodes in the right subtree are strictly greater than the node’s value (no duplicates allowed).  
+  The solution uses recursion with min and max constraints passed down to validate each subtree, ensuring strict inequality.  
+  Time complexity: **O(n)**, where n is the number of nodes in the tree.*
   
 ---
 
