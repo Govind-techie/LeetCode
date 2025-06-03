@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 31 problems  
+- ✅ Easy: 32 problems  
 - 🔥 Medium: 16 problems  
 - 🚀 Hard: 5 problems  
 
@@ -112,6 +112,10 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   A valid BST requires that for every node, all nodes in the left subtree are strictly less than the node’s value, and all nodes in the right subtree are strictly greater than the node’s value (no duplicates allowed).  
   The solution uses recursion with min and max constraints passed down to validate each subtree, ensuring strict inequality.  
   Time complexity: **O(n)**, where n is the number of nodes in the tree.*
+
+- **Problem 108: Convert Sorted Array to Binary Search Tree**  
+  *Given a sorted array, convert it to a height-balanced binary search tree (BST).  
+  The solution uses the middle element of the array as the root to ensure balance, then recursively builds left and right subtrees from the left and right halves of the array respectively. This approach achieves O(n) time complexity.*
   
 ---
 
