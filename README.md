@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 32 problems  
-- 🔥 Medium: 16 problems  
+- 🔥 Medium: 17 problems  
 - 🚀 Hard: 5 problems  
 
 ---
@@ -169,6 +169,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 236: Lowest Common Ancestor of a Binary Tree**  
   *Given a binary tree, find the lowest common ancestor (LCA) of two given nodes. The LCA of two nodes is the deepest node that has both nodes as descendants (a node can be a descendant of itself). Solved using a recursive post-order traversal. If both left and right recursive calls return non-null, the current node is the LCA. Otherwise, we return whichever side is non-null. Time complexity is **O(n)** where n is the number of nodes in the tree.*
+
+- **Problem 1382: Balance a Binary Search Tree**  
+  *Given a binary search tree (BST), return a balanced BST with the same node values.*  
+  The solution involves performing an inorder traversal to collect the nodes in sorted order, then recursively building a balanced BST from the sorted list by choosing the middle element as the root at each step.  
+  This approach guarantees a balanced tree and runs in **O(n)** time and space, where n is the number of nodes.
 
 ---
 
