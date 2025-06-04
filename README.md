@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 32 problems  
-- 🔥 Medium: 17 problems  
+- 🔥 Medium: 18 problems  
 - 🚀 Hard: 5 problems  
 
 ---
@@ -193,6 +193,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 987: Vertical Order Traversal of a Binary Tree**  
   *Given a binary tree, return the vertical order traversal of its nodes' values. Nodes with the same position should be reported in order from top to bottom, and from left to right when positions are the same. This is solved using BFS with a map to store nodes by their vertical and level indices, achieving **O(n log n)** time complexity.*
+
+- **Problem 1305: All Elements in Two Binary Search Trees**  
+  *Given two binary search trees, return a sorted list containing all the elements from both trees. Solved using inorder traversal on both trees to get sorted lists, then merging these two sorted lists efficiently with O(n + m) time complexity.*
 
 ---
 
