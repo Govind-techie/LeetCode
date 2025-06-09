@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 32 problems  
+- ✅ Easy: 33 problems  
 - 🔥 Medium: 19 problems  
 - 🚀 Hard: 5 problems  
 
@@ -116,6 +116,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 108: Convert Sorted Array to Binary Search Tree**  
   *Given a sorted array, convert it to a height-balanced binary search tree (BST).  
   The solution uses the middle element of the array as the root to ensure balance, then recursively builds left and right subtrees from the left and right halves of the array respectively. This approach achieves O(n) time complexity.*
+
+- **Problem 1337: The K Weakest Rows in a Matrix**  
+  *Given a binary matrix where each row consists of soldiers (1s) followed by civilians (0s), return the indices of the **k weakest rows** in the matrix in order from weakest to strongest.*  
+  A row is weaker if it has fewer soldiers, or the same number of soldiers but a smaller index.  
+  The solution uses a **min-heap (priority queue)** or sorting based on soldier count (using binary search per row) along with row index to determine the weakest rows.  
+  Time complexity is **O(m × log n + m log m)** where *m* is the number of rows and *n* is the number of columns.
   
 ---
 
