@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 32 problems  
-- 🔥 Medium: 18 problems  
+- 🔥 Medium: 19 problems  
 - 🚀 Hard: 5 problems  
 
 ---
@@ -174,6 +174,10 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given a binary search tree (BST), return a balanced BST with the same node values.*  
   The solution involves performing an inorder traversal to collect the nodes in sorted order, then recursively building a balanced BST from the sorted list by choosing the middle element as the root at each step.  
   This approach guarantees a balanced tree and runs in **O(n)** time and space, where n is the number of nodes.
+
+- **Problem 973: K Closest Points to Origin**  
+  *Find the k points closest to the origin (0, 0) using a max-heap (priority queue).*  
+  *Time complexity: O(n log k), Space complexity: O(k).*
 
 ---
 
