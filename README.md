@@ -6,7 +6,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - ✅ Easy: 33 problems  
 - 🔥 Medium: 19 problems  
-- 🚀 Hard: 5 problems  
+- 🚀 Hard: 6 problems  
 
 ---
 
@@ -206,6 +206,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 1305: All Elements in Two Binary Search Trees**  
   *Given two binary search trees, return a sorted list containing all the elements from both trees. Solved using inorder traversal on both trees to get sorted lists, then merging these two sorted lists efficiently with O(n + m) time complexity.*
+
+- **Problem 239: Sliding Window Maximum**  
+  *Given an array of integers and a sliding window size `k`, return the maximum value in each sliding window.*  
+  The problem is solved using a **deque (double-ended queue)** to maintain the indices of potential maximum elements for the current window.  
+  At each step, we remove indices from the back of the deque if the current element is greater than the elements at those indices. We also remove the front element if it is outside the current window.  
+  This results in an efficient **O(n) time complexity** where n is the number of elements in the input array.
 
 ---
 
