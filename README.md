@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 33 problems  
-- 🔥 Medium: 19 problems  
+- 🔥 Medium: 20 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -184,6 +184,9 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 - **Problem 973: K Closest Points to Origin**  
   *Find the k points closest to the origin (0, 0) using a max-heap (priority queue).*  
   *Time complexity: O(n log k), Space complexity: O(k).*
+
+- **Problem 215: Kth Largest Element in an Array**  
+  *Find the kᵗʰ largest element using a max heap (priority queue). Push all elements into the max heap (inverted min heap in most languages), then pop k times to get the answer. Time: O(n log n), Space: O(n).*
 
 ---
 
