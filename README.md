@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 35 problems  
+- ✅ Easy: 36 problems  
 - 🔥 Medium: 21 problems  
 - 🚀 Hard: 6 problems  
 
@@ -134,6 +134,13 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution uses hash sets to store elements from the first array and checks for common elements in the second array, ensuring uniqueness in the result.  
   Time complexity is **O(n + m)**, where n and m are the lengths of the two arrays.*
   
+- **Problem 2215: Find the Difference of Two Arrays**  
+  *Given two integer arrays, return a list of two lists:  
+  1. Elements present in the first array but not in the second,  
+  2. Elements present in the second array but not in the first.  
+  The solution uses hash sets to efficiently compute the unique differences between the arrays.  
+  Time complexity is **O(n + m)**, where n and m are the lengths of the two arrays.*
+
 ---
 
 ### 🔥 Medium Problems
