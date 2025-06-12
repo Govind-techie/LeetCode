@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 34 problems  
+- ✅ Easy: 35 problems  
 - 🔥 Medium: 21 problems  
 - 🚀 Hard: 6 problems  
 
@@ -128,6 +128,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution uses a hash map to count the frequency of each element, then checks if all frequencies are unique by inserting them into a hash set.  
   If any frequency repeats, return false; otherwise, return true.  
   Time complexity is **O(n)** for counting and checking uniqueness, where n is the length of the array.*
+
+- **Problem 349: Intersection of Two Arrays**  
+  *Given two arrays, find their intersection (unique elements present in both arrays).  
+  The solution uses hash sets to store elements from the first array and checks for common elements in the second array, ensuring uniqueness in the result.  
+  Time complexity is **O(n + m)**, where n and m are the lengths of the two arrays.*
   
 ---
 
