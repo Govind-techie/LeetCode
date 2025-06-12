@@ -1,12 +1,12 @@
 /*
 
-// LeetCode Problem (242) : Valid Anagram
+LeetCode Problem (242) : Valid Anagram
+Difficulty : Easy
 
-// Difficulty : Easy
+Time Complexity : O(n)
+Space Complexity : O(n)
 
-// Time Complexity : O(n)
-
-//DESCRIPTION:
+DESCRIPTION:
 
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
