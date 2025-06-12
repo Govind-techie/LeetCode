@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 33 problems  
-- 🔥 Medium: 20 problems  
+- 🔥 Medium: 21 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -187,6 +187,13 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 - **Problem 215: Kth Largest Element in an Array**  
   *Find the kᵗʰ largest element using a max heap (priority queue). Push all elements into the max heap (inverted min heap in most languages), then pop k times to get the answer. Time: O(n log n), Space: O(n).*
+
+- **Problem 229: Majority Element II**  
+  *Find all elements in an array that appear more than ⌊n/3⌋ times.*  
+  Solved using a **hash map to count frequencies** and a **set to avoid duplicates**:  
+  1. Iterate through the array and count each element’s frequency using an unordered_map.  
+  2. If the count exceeds ⌊n/3⌋ and hasn’t been added to the result yet (tracked using unordered_set), add it to the answer.  
+  Time complexity: **O(n)**, Space complexity: **O(n)**.
 
 ---
 
