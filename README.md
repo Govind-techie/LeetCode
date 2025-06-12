@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 33 problems  
+- ✅ Easy: 34 problems  
 - 🔥 Medium: 21 problems  
 - 🚀 Hard: 6 problems  
 
@@ -122,6 +122,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   A row is weaker if it has fewer soldiers, or the same number of soldiers but a smaller index.  
   The solution uses a **min-heap (priority queue)** or sorting based on soldier count (using binary search per row) along with row index to determine the weakest rows.  
   Time complexity is **O(m × log n + m log m)** where *m* is the number of rows and *n* is the number of columns.
+
+- **Problem 1207: Unique Number of Occurrences**  
+  *Given an array of integers, determine if the number of occurrences of each value is unique.  
+  The solution uses a hash map to count the frequency of each element, then checks if all frequencies are unique by inserting them into a hash set.  
+  If any frequency repeats, return false; otherwise, return true.  
+  Time complexity is **O(n)** for counting and checking uniqueness, where n is the length of the array.*
   
 ---
 
