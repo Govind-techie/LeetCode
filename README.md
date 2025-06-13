@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 36 problems  
-- 🔥 Medium: 21 problems  
+- 🔥 Medium: 22 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -212,6 +212,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   1. Iterate through the array and count each element’s frequency using an unordered_map.  
   2. If the count exceeds ⌊n/3⌋ and hasn’t been added to the result yet (tracked using unordered_set), add it to the answer.  
   Time complexity: **O(n)**, Space complexity: **O(n)**.
+
+- **Problem 560: Subarray Sum Equals K**  
+  *Given an array of integers and an integer k, find the total number of continuous subarrays whose sum equals k.  
+  The solution uses a hash map to store the cumulative sum frequencies while iterating through the array.  
+  For each element, it checks if (current sum - k) exists in the map, which indicates a subarray summing to k ends at the current index.  
+  This approach achieves **O(n) time complexity** and **O(n) space complexity**.*
 
 ---
 
