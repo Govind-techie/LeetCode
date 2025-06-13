@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 36 problems  
-- 🔥 Medium: 22 problems  
+- 🔥 Medium: 23 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -218,6 +218,13 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution uses a hash map to store the cumulative sum frequencies while iterating through the array.  
   For each element, it checks if (current sum - k) exists in the map, which indicates a subarray summing to k ends at the current index.  
   This approach achieves **O(n) time complexity** and **O(n) space complexity**.*
+
+- **Problem 974: Subarray Sums Divisible by K**  
+  *Given an integer array and an integer k, return the number of non-empty subarrays whose sum is divisible by k.  
+  The solution uses a hash map to track the frequency of prefix sum remainders modulo k while iterating through the array.  
+  For each prefix sum, it checks how many times the same remainder has occurred before, which indicates a subarray sum divisible by k.  
+  Handles negative numbers by normalizing the modulo result.  
+  Time complexity is **O(n)** and space complexity is **O(n)**.*
 
 ---
 
