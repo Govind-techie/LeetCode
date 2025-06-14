@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 36 problems  
-- 🔥 Medium: 23 problems  
+- 🔥 Medium: 24 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -225,6 +225,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   For each prefix sum, it checks how many times the same remainder has occurred before, which indicates a subarray sum divisible by k.  
   Handles negative numbers by normalizing the modulo result.  
   Time complexity is **O(n)** and space complexity is **O(n)**.*
+
+- **Problem 720: Longest Word in Dictionary**  
+  *Given a list of words, find the longest word in the dictionary that can be built one character at a time by other words in the list.  
+  The solution sorts the words and uses a hash set to keep track of valid prefixes. For each word, it checks if all prefixes exist in the set before adding the word itself.  
+  If multiple answers exist, the lexicographically smallest is returned.  
+  Time complexity is **O(n log n + n * k)**, where n is the number of words and k is the
 
 ---
 
