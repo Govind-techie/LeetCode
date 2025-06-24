@@ -4,7 +4,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 
 ## 📈 Progress
 
-- ✅ Easy: 36 problems  
+- ✅ Easy: 37 problems  
 - 🔥 Medium: 24 problems  
 - 🚀 Hard: 6 problems  
 
