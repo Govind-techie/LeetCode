@@ -141,6 +141,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution uses hash sets to efficiently compute the unique differences between the arrays.  
   Time complexity is **O(n + m)**, where n and m are the lengths of the two arrays.*
 
+- **Problem 1971: Find if Path Exists in Graph**  
+  *Given an undirected graph with n nodes and a list of edges, determine if there is a valid path between two given nodes (source and destination).  
+  The solution builds an adjacency list and uses Depth-First Search (DFS) or Breadth-First Search (BFS) to check if the destination node is reachable from the source node.  
+  Time complexity is **O(V + E)**, where V is the number of vertices and E is the number of edges.*
+
 ---
 
 ### 🔥 Medium Problems
