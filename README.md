@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 24 problems  
+- 🔥 Medium: 25 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -236,6 +236,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution sorts the words and uses a hash set to keep track of valid prefixes. For each word, it checks if all prefixes exist in the set before adding the word itself.  
   If multiple answers exist, the lexicographically smallest is returned.  
   Time complexity is **O(n log n + n * k)**, where n is the number of words and k is the
+
+- **Problem 684: Redundant Connection**  
+  *Given a connected undirected graph with one extra edge added to a tree, find the edge that can be removed so the resulting graph is a tree.  
+  The solution incrementally adds edges and uses Depth-First Search (DFS) to detect cycles. When a cycle is detected upon adding an edge, that edge is the redundant connection.  
+  Time complexity is **O(V + E)** per edge, where V is the number of vertices and E is the number of edges.*
 
 ---
 
