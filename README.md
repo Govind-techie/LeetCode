@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 27 problems  
+- 🔥 Medium: 28 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -251,6 +251,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given an undirected graph, determine if it is bipartite (i.e., its nodes can be colored with two colors such that no two adjacent nodes share the same color).  
   The solution uses Breadth-First Search (BFS) to attempt coloring the graph and checks for conflicts. If a conflict is found, the graph is not bipartite.  
   Time complexity is **O(V + E)**, where V is the number of vertices and E is the number of edges.*
+
+- **Problem 797: All Paths From Source to Target**  
+  *Given a directed acyclic graph (DAG), find all possible paths from node 0 to node n - 1.  
+  The solution uses Depth-First Search (DFS) with backtracking to explore all paths from the source to the target node, storing each valid path.  
+  Time complexity is **O(2^(V + E))** in the worst case, where V is the number of vertices and E is the number of edges, as all possible paths are explored.*
 
 ---
 
