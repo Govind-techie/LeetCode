@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 25 problems  
+- 🔥 Medium: 26 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -241,6 +241,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given a connected undirected graph with one extra edge added to a tree, find the edge that can be removed so the resulting graph is a tree.  
   The solution incrementally adds edges and uses Depth-First Search (DFS) to detect cycles. When a cycle is detected upon adding an edge, that edge is the redundant connection.  
   Time complexity is **O(V + E)** per edge, where V is the number of vertices and E is the number of edges.*
+
+- **Problem 207: Course Schedule**  
+  *Given the total number of courses and a list of prerequisite pairs, determine if it is possible to finish all courses.  
+  The solution models the problem as a directed graph and uses Depth-First Search (DFS) to detect cycles. If a cycle is detected, it means there is a circular dependency and not all courses can be completed.  
+  Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
 
 ---
 
