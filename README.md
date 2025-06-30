@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 26 problems  
+- 🔥 Medium: 27 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -246,6 +246,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given the total number of courses and a list of prerequisite pairs, determine if it is possible to finish all courses.  
   The solution models the problem as a directed graph and uses Depth-First Search (DFS) to detect cycles. If a cycle is detected, it means there is a circular dependency and not all courses can be completed.  
   Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
+
+- **Problem 785: Is Graph Bipartite?**  
+  *Given an undirected graph, determine if it is bipartite (i.e., its nodes can be colored with two colors such that no two adjacent nodes share the same color).  
+  The solution uses Breadth-First Search (BFS) to attempt coloring the graph and checks for conflicts. If a conflict is found, the graph is not bipartite.  
+  Time complexity is **O(V + E)**, where V is the number of vertices and E is the number of edges.*
 
 ---
 
