@@ -38,49 +38,50 @@ All the pairs prerequisites[i] are unique.
 
 #include <iostream>
 #include <vector>
-#include <list>
 using namespace std;
 
-vector<list<int>> adjList;
-
-void buildGraph(int numCourses, const vector<vector<int>>& prerequisites) {
-    adjList.assign(numCourses, {});
-    for (auto edge : prerequisites) {
-        int course = edge[0];
-        int prereq = edge[1];
-        adjList[prereq].push_back(course);
-    }
-}
-
-bool dfs(int src, vector<bool>& vis, vector<bool>& recPath) {
+bool cycleDetection(int src, vector<vector<int>>& adjList, vector<bool>& vis, vector<bool>& recPath) {
     vis[src] = true;
     recPath[src] = true;
 
     for (int v : adjList[src]) {
         if (!vis[v]) {
-            if (!dfs(v, vis, recPath)) return false;
-        } else if (recPath[v]) return false;
+            if (cycleDetection(v, adjList, vis, recPath)) return true;
+        } else if (recPath[v]) return true; // back-edge found → cycle
     }
-    recPath[src] = false;
-    return true;
+
+    recPath[src] = false; // backtrack
+    return false;
 }
 
-bool canFinish(int numCourses, const vector<vector<int>>& prerequisites) {
-    buildGraph(numCourses, prerequisites);
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    vector<vector<int>> adjList(numCourses);
+    for (auto& p : prerequisites)
+        adjList[p[1]].push_back(p[0]); // directed edge: b → a
+
     vector<bool> vis(numCourses, false);
     vector<bool> recPath(numCourses, false);
-    for (int i = 0; i < numCourses; ++i)
-        if (!vis[i] && !dfs(i, vis, recPath)) return false;
-    return true;
+
+    for (int i = 0; i < numCourses; i++) {
+        if (!vis[i] && cycleDetection(i, adjList, vis, recPath))
+            return false; // cycle found
+    }
+
+    return true; // no cycle → can finish all courses
 }
 
 int main() {
-    int numCourses, m;
-    cin >> numCourses >> m;
-    vector<vector<int>> prerequisites(m, vector<int>(2));
-    for (int i = 0; i < m; ++i) cin >> prerequisites[i][0] >> prerequisites[i][1];
+    int numCourses = 4;
+    vector<vector<int>> prerequisites = {
+        {1, 0},
+        {2, 1},
+        {3, 2}
+    };
 
-    bool ok = canFinish(numCourses, prerequisites);
-    cout << (ok ? "Yes" : "No") << '\n';
+    if (canFinish(numCourses, prerequisites))
+        cout << "Yes, you can finish all courses.\n";
+    else
+        cout << "No, there's a cycle. Cannot finish all courses.\n";
+
     return 0;
 }
