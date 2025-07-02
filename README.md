@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 28 problems  
+- 🔥 Medium: 29 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -242,10 +242,6 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The solution incrementally adds edges and uses Depth-First Search (DFS) to detect cycles. When a cycle is detected upon adding an edge, that edge is the redundant connection.  
   Time complexity is **O(V + E)** per edge, where V is the number of vertices and E is the number of edges.*
 
-- **Problem 207: Course Schedule**  
-  *Given the total number of courses and a list of prerequisite pairs, determine if it is possible to finish all courses.  
-  The solution models the problem as a directed graph and uses Depth-First Search (DFS) to detect cycles. If a cycle is detected, it means there is a circular dependency and not all courses can be completed.  
-  Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
 
 - **Problem 785: Is Graph Bipartite?**  
   *Given an undirected graph, determine if it is bipartite (i.e., its nodes can be colored with two colors such that no two adjacent nodes share the same color).  
@@ -256,6 +252,16 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given a directed acyclic graph (DAG), find all possible paths from node 0 to node n - 1.  
   The solution uses Depth-First Search (DFS) with backtracking to explore all paths from the source to the target node, storing each valid path.  
   Time complexity is **O(2^(V + E))** in the worst case, where V is the number of vertices and E is the number of edges, as all possible paths are explored.*
+
+- **Problem 207: Course Schedule**  
+  *Given the total number of courses and a list of prerequisite pairs, determine if it is possible to finish all courses.  
+  The solution models the problem as a directed graph and uses Depth-First Search (DFS) to detect cycles. If a cycle is detected, it means there is a circular dependency and not all courses can be completed.  
+  Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
+  
+- **Problem 210: Course Schedule II**  
+  *Given the total number of courses and a list of prerequisite pairs, return an ordering of courses you should take to finish all courses.  
+  The solution models the problem as a directed graph and uses topological sorting (DFS-based) to find a valid course order. If a cycle is detected (i.e., not all courses can be completed), it returns an empty array.  
+  Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
 
 ---
 
