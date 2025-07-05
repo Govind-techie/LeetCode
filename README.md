@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 29 problems  
+- 🔥 Medium: 30 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -262,6 +262,11 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given the total number of courses and a list of prerequisite pairs, return an ordering of courses you should take to finish all courses.  
   The solution models the problem as a directed graph and uses topological sorting (DFS-based) to find a valid course order. If a cycle is detected (i.e., not all courses can be completed), it returns an empty array.  
   Time complexity is **O(V + E)**, where V is the number of courses and E is the number of prerequisite pairs.*
+
+- **Problem 743: Network Delay Time**  
+  *Given a network of n nodes and a list of travel times as directed edges, determine the minimum time required for a signal sent from a starting node to reach all nodes. If it is impossible, return -1.  
+  The solution builds an adjacency list and uses Dijkstra's algorithm to find the shortest path from the source to all nodes, tracking the maximum delay.  
+  Time complexity is **O((V + E) log V)**, where V is the number of nodes and E is the number of edges.*
 
 ---
 
