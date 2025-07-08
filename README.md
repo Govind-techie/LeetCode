@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 30 problems  
+- 🔥 Medium: 31 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -267,6 +267,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   *Given a network of n nodes and a list of travel times as directed edges, determine the minimum time required for a signal sent from a starting node to reach all nodes. If it is impossible, return -1.  
   The solution builds an adjacency list and uses Dijkstra's algorithm to find the shortest path from the source to all nodes, tracking the maximum delay.  
   Time complexity is **O((V + E) log V)**, where V is the number of nodes and E is the number of edges.*
+
+- **Problem 1584: Minimum Cost to Connect All Points**  
+  *Given a set of points in 2D space, find the minimum cost to connect all points such that there is exactly one simple path between any two points (i.e., form a Minimum Spanning Tree).  
+  The cost to connect two points is their Manhattan distance.  
+  The solution uses Prim's algorithm with a priority queue to efficiently build the MST and calculate the minimum total cost.  
+  Time complexity is **O(E log V)**, where E is the number of edges and V is the number of points.*
 
 ---
 
