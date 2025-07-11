@@ -5,7 +5,7 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
 ## 📈 Progress
 
 - ✅ Easy: 37 problems  
-- 🔥 Medium: 31 problems  
+- 🔥 Medium: 32 problems  
 - 🚀 Hard: 6 problems  
 
 ---
@@ -273,6 +273,12 @@ This repository includes all the LeetCode problems I solved throughout my DSA jo
   The cost to connect two points is their Manhattan distance.  
   The solution uses Prim's algorithm with a priority queue to efficiently build the MST and calculate the minimum total cost.  
   Time complexity is **O(E log V)**, where E is the number of edges and V is the number of points.*
+
+- **Problem 787: Cheapest Flights Within K Stops**  
+  *Given a list of flights between cities, find the cheapest price from a source city to a destination city with at most k stops.  
+  The solution uses the Bellman-Ford algorithm, updating the minimum cost to reach each city for up to k + 1 edges (k stops).  
+  If the destination cannot be reached within k stops, returns -1.  
+  Time complexity is **O(E * K)**, where E is the number of flights and K is the maximum number of stops.*
 
 ---
 
